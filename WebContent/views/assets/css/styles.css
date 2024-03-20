@@ -1,0 +1,33 @@
+@charset "UTF-8";
+     
+        .full-vh {
+            height: 100vh;
+        }
+        #sidebar .nav-link {
+            display: flex;
+            align-items: center;
+            justify-content: left;
+            height: 100%;
+        }
+        #main-content {
+            margin-left: 240px;
+            transition: margin-left 0.3s;
+        }
+    #preview {
+        width: 100%;
+        height: 300px;
+        margin-top: 10px;
+        border: 1px dashed rgb(0, 127, 255); /* Thêm đường viền để hiển thị đẹp hơn */
+        border-radius: 5px; /* Làm tròn các góc */
+        overflow: hidden; /* Ngăn chặn hình ảnh tràn ra khỏi khung */
+       
+    }
+
+
+#preview.dragover {
+    border: 2px dashed rgb(0, 127, 255);
+}
+.submenu {
+    display: none;
+    list-style: none;
+}
